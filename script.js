@@ -1,135 +1,136 @@
 // Primitive Data Types.
-// console.log(5)
+console.log(5)
 
-// console.log("sajal mazumder")
+console.log("sajal mazumder")
 
-// let age = 24;
-// console.log(age + 10);
+let age = 24;
+console.log(age + 10);
 
 
-// let name = "Sajal Mazumder";
-// console.log("hello, " + name);
+let name = "Sajal Mazumder";
+console.log("hello, " + name);
 
-// let isLoggedIn = false;
-// console.log(isLoggedIn);
+let isLoggedIn = false;
+console.log(isLoggedIn);
 
-// let x;
-// console.log(x);
+let x;
+console.log(x);
 
-// let noValue = null;
-// console.log(noValue);
+let noValue = null;
+console.log(noValue);
 
-// let uniKey = Symbol("id_name");
-// console.log(uniKey);
+let uniKey = Symbol("id_name");
+console.log(uniKey);
 
-// let bigNumber = 12387658708736865676788390007346n
-// console.log(bigNumber);
+let bigNumber = 12387658708736865676788390007346n
+console.log(bigNumber);
 
-// // Non-Primitive Data Types.
+// Non-Primitive Data Types.
 
-// // object
-// let person = {
-//     name: "Sajal Mazumder",
-//     age: 33,
-//     sex: "Male",
-// };
-// console.log(person.sex);
-// console.log(person.age);
+// object
+let person = {
+    name: "Sajal Mazumder",
+    age: 33,
+    sex: "Male",
+};
+console.log(person.sex);
+console.log(person.age);
 
-// // Array
-// let clss = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
-// console.log(clss[3])
-// console.log(clss[8])
+// Array
+let clss = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
+console.log(clss[3])
+console.log(clss[8])
 
-// // Function
-// function greet() {
-//     console.log( "Hello");
-// }
-// greet();
+// Function
+function greet() {
+    console.log( "Hello");
+}
+greet();
 
-// // Common Mistakes
+// Common Mistakes
 
-// // undefined
-// let p;
-// console.log(x);
+// undefined
+let p;
+console.log(x);
 
-// // null
-// let q = null;
-// console.log(q);
+// null
+let q = null;
+console.log(q);
 
-// // num to string
-// let num = 5; 
-// console.log(num.toString());
+// num to string
+let num = 5; 
+console.log(num.toString());
 
-// // reference
-// let arr1 = [6,7];
-// let arr2 = arr1;
-// arr2.push(9);
-// console.log(arr1);
+// reference
+let arr1 = [6,7];
+let arr2 = arr1;
+arr2.push(9);
+console.log(arr1);
 
-// // syntax and usage
+// syntax and usage
 
-// // whole number
-// let glassesSold = 10;
-// console.log(glassesSold);
+// whole number
+let glassesSold = 10;
+console.log(glassesSold);
 
-// // Decimal number
-// let pricePerGlass = 5.5;
-// console.log(pricePerGlass);
+// Decimal number
+let pricePerGlass = 5.5;
+console.log(pricePerGlass);
 
-// // Basic math with numbers
-// let totalEarnings = glassesSold * pricePerGlass
-// console.log(totalEarnings);
+// Basic math with numbers
+let totalEarnings = glassesSold * pricePerGlass
+console.log(totalEarnings);
 
-// // special numbers
-// // infinity when divided by 0
-// console.log(1 / 0);
-// // NaN not a number
-// console.log("cow" * 5);
+// special numbers
+// infinity when divided by 0
+console.log(1 / 0);
+// NaN not a number
+console.log("cow" * 5);
 
-// // common mistakes
-// // 1. dividing by zero-- infinity, not an error
-// let pq = 29;
-// console.log(29/0);
+// common mistakes
+// 1. dividing by zero-- infinity, not an error
+let pq = 29;
+console.log(29/0);
 
-// // 2. using strings and numbers--output strings, concatination.
-// let rst = "10" + 45;
-// console.log(rst);
-// // solution--- convert strings to number before doing math
-// let resst = Number("49") + 6;
-// console.log(resst);
+// 2. using strings and numbers--output strings, concatination.
+let rst = "10" + 45;
+console.log(rst);
+// solution--- convert strings to number before doing math
+let resst = Number("49") + 6;
+console.log(resst);
 
-// // misinterpreting NaN
-// let noRest = "text" * 5;
-// console.log(noRest);
+// misinterpreting NaN
+let noRest = "text" * 5;
+console.log(noRest);
 
-// // Syntax and Usage
-// // 1. Basic strings
-// let greeting = "Hello, world!"; 
-// console.log(greeting);
-// // 2. Single vs double quotes
-// let singleQuote = 'This is a string.';
-// let doubleQuote = "This is also a string.";
-// console.log(singleQuote, doubleQuote);
-// // 3. using backticks for templates
-// let name1 = "Alice"; 
-// let message = `Hello, ${name1}!`; 
-// console.log(message);
-// // 4. combining strings
-// let firstName = "John"; 
-// let lastName = "Doe"; 
-// let fullName = firstName + " " + lastName; 
-// console.log(fullName);
+// Syntax and Usage
+// 1. Basic strings
+let greeting = "Hello, world!"; 
+console.log(greeting);
+// 2. Single vs double quotes
+let singleQuote = 'This is a string.';
+let doubleQuote = "This is also a string.";
+console.log(singleQuote, doubleQuote);
+// 3. using backticks for templates
+let name1 = "Alice"; 
+let message = `Hello, ${name1}!`; 
+console.log(message);
+// 4. combining strings
+let firstName = "John"; 
+let lastName = "Doe"; 
+let fullName = firstName + " " + lastName; 
+console.log(fullName);
 
-// // string length
-// let text = "Hello Sajal";
-// console.log(text.length);
+// string length
+let text = "Hello Sajal";
+console.log(text.length);
 
 // special characters
-// let special = "He said", "This is a fun!";
-// console.log(special); finding errors
+// nested quotes
+let special = "He said, 'This is a fun!'";
+console.log(special); 
 
-// let wrong = "He said, "Oops!""; finding errors-- nested quotes
+let wrong = "He said, 'Oops!'"; 
 
 
 // 20-01-2025 
@@ -174,17 +175,17 @@ console.log(wellCome);
     // 3. combining strings
 let fname = "John ";
 let lname = "Doe";
-let fullName = fname + lname;
-console.log(fullName);
+let fullNamE = fname + lname;
+console.log(fullNamE);
 
 // string length
-let special = "Hello World";
-console.log(special.length);
+let speciAl = "Hello World";
+console.log(speciAl.length);
 
 // use backslashes() for special characters
-// let speCiaL = "He said, "Javascript is fun !" " ;showing errors!
+let speCiaL = "He said,'Javascript is fun ! '" ;
 
-// let corect = "He said, "Oops""; nested quotes, showing error;
+let corect = "He said, 'Oops'"; 
 
 // changing string to numbers when needed
 let reSult = Number("44") + 6; // number case sensitive. it will be Number, not number.
@@ -206,10 +207,10 @@ if (isSunny){
 }
 
     // comparison
-let age = 18;
+let age5 = 18;
 // let canVote = age >=18; true
 // let canVote = age <=18; true
-let canVote = age < 18;
+let canVote = age5 < 18;
 console.log(canVote);
 
     // logical oparation
@@ -248,15 +249,15 @@ console.log(isTrue);
 console.log("this won't run !");
 
 
-if (isTrue ===false);
+if (isTrue === false);
 console.log(isTrue);
 
 
 // undefined in js
 
     // default values of uninnitialized variables
-let name;
-console.log(name);
+let name11;
+console.log(name11);
 
     // functions without a return value
 function greet(){
@@ -275,16 +276,44 @@ console.log(nmbrs[6]);
 console.log(typeof undefined);
 console.log(typeof nmbrs);
 
+// @@@ null
+    // assigning null to a variable
+let favColor = null;
+console.log(favColor);
+
+    // overwriting a value with null
+let userName = null;
+    userName = "John Doe";
+console.log(userName);
+
+    // comparing with null - to check a variable is null use strict equality (===) true or false
+let score = null;
+console.log(score === null);
+
+// null use in objects; assigning null is common in objects to indicate no value for a property;
+let persoN = { name: "John Doe", age: null};
+console.log(persoN.age);
 
 
+// relying on type of null
+if (x === null){
+    console.log("it is null");
+    
+}
+// symbol
+    // creating a symbol
+const myId = Symbol();
+console.log(myId);
 
+    // using a symbol with description
+const iD = Symbol ("userPassword");
+console.log(iD);
 
-
-
-
-
-
-
+    // using symbol as object key
+// const muObj = {};
+// const rull = Symbol ("rull");
+// myObj[rull] = "value";
+// console.log(myObj[rull]);
 
 
 
