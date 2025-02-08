@@ -341,11 +341,17 @@ myName.phoneNumber = "018520254752"
 
 // new style console
 
-console.log(myName['fname']);
+// console.log(myName['fname']);
 
 // replacing data
 myName.fname = "Borsa"
 
 
-console.log(myName);
+// console.log(myName);
+
+// js array
+
+const aray = ["Sajal", "Borsa", 100, null, undefined, {name: "Sajal"}];
+console.log(aray);
+
 
