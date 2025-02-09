@@ -320,38 +320,102 @@
 
 // js object
 
-let myName = {
-    fname: "Sajal",
-    lname: "Mazumder", 
-    religion: "Hindhu",
-    bloodGroup: "O+",
-    sex: "Male",
-    myNamee:{
-        fname: "Sajal",
-        lname: "Mazumder",
-        religion: "Hindhu",
-        sex: "Male",
-        bloodGroup: "O+"
-    }
-};
+// let myName = {
+//     fname: "Sajal",
+//     lname: "Mazumder", 
+//     religion: "Hindhu",
+//     bloodGroup: "O+",
+//     sex: "Male",
+//     myNamee:{
+//         fname: "Sajal",
+//         lname: "Mazumder",
+//         religion: "Hindhu",
+//         sex: "Male",
+//         bloodGroup: "O+"
+//     }
+// };
 
 // adding new data
 
-myName.phoneNumber = "018520254752"
+// myName.phoneNumber = "018520254752"
 
 // new style console
 
 // console.log(myName['fname']);
 
 // replacing data
-myName.fname = "Borsa"
-
+// myName.fname = "Borsa"
+// 
 
 // console.log(myName);
 
 // js array
 
-const aray = ["Sajal", "Borsa", 100, null, undefined, {name: "Sajal"}];
-console.log(aray);
+// const aray = ["Sajal", "Borsa", 100, null, undefined, {name: "Sajal"}];
+// console.log(aray);
+
+// aray[4] = 233;
+// console.log(aray);
+// console.log(aray.length);
+// console.log(aray[aray.length - 1]);
+// console.log(aray[aray.length -2]);
+// console.log(aray[aray.length - 4]);
+// console.log(aray[aray.length + 1]);
+// console.log(aray[0] + 1);
+
+
+
+// adding new data to last position by adding index number
+// aray[6] = "Shubro"
+// console.log(aray);
+
+// ###### js function
+
+function myFunction() {
+    let x = 120;
+    console.log("me", x);  
+}
+
+// myFunction()
+
+const me = 10;
+const you = 20;
+
+function we () {
+    console.log(me + you);
+}
+
+// we()
+
+// ### adding parameter (parameter)
+
+// const nm1 = 5;
+// const nm2 = 4;
+
+function sum (nm1, nm2) {
+    console.log(nm1 + nm2);
+    
+}
+function multi(nm1, nm2) {
+    console.log(nm1 * nm2);
+    
+}
+
+function divide (nm1, nm2) {
+    console.log(nm1 / nm2);
+    
+}
+
+function sub(nm1, nm2) {
+    console.log(nm1 - nm2);
+    
+}
+
+sum(20, 30)
+multi(5,4)
+divide(20, 4)
+sub(12, 10)
+
+
 
 
