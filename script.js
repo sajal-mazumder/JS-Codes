@@ -371,19 +371,19 @@
 
 // ###### js function
 
-function myFunction() {
-    let x = 120;
-    console.log("me", x);  
-}
+// function myFunction() {
+//     let x = 120;
+//     console.log("me", x);  
+// }
 
 // myFunction()
 
-const me = 10;
-const you = 20;
+// const me = 10;
+// const you = 20;
 
-function we () {
-    console.log(me + you);
-}
+// function we () {
+//     console.log(me + you);
+// }
 
 // we()
 
@@ -392,29 +392,33 @@ function we () {
 // const nm1 = 5;
 // const nm2 = 4;
 
-function sum (nm1, nm2) {
-    console.log(nm1 + nm2);
+// function sum (nm1, nm2) {
+//     console.log(nm1 + nm2);
     
-}
-function multi(nm1, nm2) {
-    console.log(nm1 * nm2);
+// }
+// function multi(nm1, nm2) {
+//     console.log(nm1 * nm2);
     
-}
+// }
 
-function divide (nm1, nm2) {
-    console.log(nm1 / nm2);
+// function divide (nm1, nm2) {
+//     console.log(nm1 / nm2);
     
-}
+// }
 
-function sub(nm1, nm2) {
-    console.log(nm1 - nm2);
+// function sub(nm1, nm2) {
+//     console.log(nm1 - nm2);
     
-}
+// }
 
-sum(20, 30)
-multi(5,4)
-divide(20, 4)
-sub(12, 10)
+// sum(20, 30)
+// multi(5,4)
+// divide(20, 4)
+// sub(12, 10)
+
+
+// #### js oparator - increment and decrement
+
 
 
 

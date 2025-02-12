@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{ font-family: sans-serif; text-align: center;}
+        input{ width: 50px; font-size: 20px; text-align: center;}
+        button{ font-size: 18px; padding: 10px; margin: 5px; cursor: pointer;}
+    </style>
+</head>
+<body>
+
+    <h2>Simple Counter</h2>
+    <input type="number" id="counter" value="0"><br><br>
+    <!-- <button onclick="document.write('hello')"> ➕ Increment</button> -->
+     <button onclick="document.getElementById('counter').value++"> ➕ Increment</button>
+    <button onclick="document.getElementById('counter').value--"> ➖ Decrement</button>
+    
+</body>
+</html>
