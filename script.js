@@ -418,6 +418,37 @@
 
 
 // #### js oparator - increment and decrement
+// it was written in index file
+
+// js assignment operator
+
+// var ab = 12;
+// var cd = 15;
+// ab +=10
+// console.log(WebAssembly);
+// console.log(ab);
+// cd -= 2;
+// console.log(cd);
+// cd *= 2;
+// console.log(cd);
+// cd /= 3
+// console.log(cd);
+
+// ab %= 2;
+// console.log(ab);
+
+// alert('hello i am from js file')
+
+let bd = document.getElementById('abd')
+// console.log(bd);
+// console.log(bd.innerHTML);
+// changing inner HTML
+bd.innerHTML = "no counter";
+console.log(bd);
+
+
+
+
 
 
 
