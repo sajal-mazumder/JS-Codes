@@ -439,12 +439,81 @@
 
 // alert('hello i am from js file')
 
-let bd = document.getElementById('abd')
+// let bd = document.getElementById('abd')
 // console.log(bd);
 // console.log(bd.innerHTML);
 // changing inner HTML
-bd.innerHTML = "no counter";
-console.log(bd);
+// bd.innerHTML = "no counter";
+// console.log(bd);
+
+// ### js array 
+// var a = [1, 3, 5, 2, 7, 9, 4, 6, 8];
+// console.log(a.sort);
+// console.log(a.sort());
+// a.sort();
+// console.log(a);
+
+// a.reverse();
+// a.pop();
+// a.push(1);
+// console.log(a);
+
+// ### js object
+
+// let a = {
+//     sajal: 1,
+//     ramesh: 2, 
+//     mona: 3,
+// }
+
+// console.log(a);
+
+// adding properties
+// a.borsa = 4,
+// a.subra = 5,
+// console.log(a);
+
+// deleting properties
+// delete a.mona;
+// console.log(a);
+
+
+// nested objects
+let a = {
+    b: 2, 
+    c: 3, 
+    d:{
+        D: 5,
+        E: 6,
+        F: 7,
+        G:{
+            g: 8,
+            h:9
+        },
+        start: function(){ console.log('start')
+        },
+    },
+    data: [2,3,4],
+    math: 3>2
+};
+
+console.log(a);
+// access to built in method-- finding object keys and values.
+// console.log(Object.keys(a));
+// console.log(Object.values(a));
+
+// console.log(a.b);
+// console.log(a['b']);
+
+
+
+
+
+
+
+
+
+
 
 
 
